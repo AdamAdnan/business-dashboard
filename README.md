@@ -7,10 +7,12 @@ Salah satu masalah utama yang dihadapi adalah tingginya tingkat attrition rate, 
 - lingkungan kerja
 - kompensasi
 - maupun faktor manajerial lainnya.
+  
 Jika tidak ditangani, kondisi ini akan dapat berdampak pada:
 - meningkatnya biaya rekrutmen dan pelatihan,
 - menurunnya produktivitas tim
 - hilangnya knowledge dan pengalaman karyawan.
+  
 Oleh karena itu, perusahaan membutuhkan pendekatan berbasis data untuk memahami penyebab utama attrition dan mengambil keputusan strategis.
 ### Permasalahan Bisnis
 
