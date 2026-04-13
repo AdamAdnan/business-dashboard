@@ -35,12 +35,17 @@ Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tools beri
 - Berbagai library pendukung untuk pengolahan data, visualisasi, serta pembangunan dan evaluasi model klasifikasi
 ### Persiapan
 
-Sumber data: ....
+Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup environment:
 
 ```
-
+conda create --name bike-dashboard python=3.12
+conda activate bike-dashboard
+# Berali ke drive D tempat project disimpan
+D:
+cd bike-sharing-main
+pip install -r requirements.txt
 ```
 
 ## Business Dashboard
