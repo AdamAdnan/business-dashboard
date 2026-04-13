@@ -16,7 +16,12 @@ Jika tidak ditangani, kondisi ini akan dapat berdampak pada:
 Oleh karena itu, perusahaan membutuhkan pendekatan berbasis data untuk memahami penyebab utama attrition dan mengambil keputusan strategis.
 ### Permasalahan Bisnis
 
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
+Berdasarkan kondisi tersebut
+1. Faktor apa saja yang paling berpengaruh terhadap attrition karyawan?
+2. Apakah faktor seperti gaji, lama bekerja, jabatan, atau work-life balance mempengaruhi keputusan karyawan untuk keluar?
+3. Bagaimana karakteristik karyawan yang cenderung resign?
+4. Apakah terdapat pola tertentu berdasarkan departemen, usia, atau lokasi kerja?
+5. Bagaimana cara memonitor faktor-faktor tersebut secara real-time?
 
 ### Cakupan Proyek
 
