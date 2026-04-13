@@ -25,8 +25,14 @@ Berdasarkan kondisi tersebut
 
 ### Cakupan Proyek
 
-Tuliskan cakupan proyek yang akan dikerjakan.
+Untuk menjawab permasalahan bisnis tersebut, proyek ini berfokus pada penerapan pendekatan classification untuk memprediksi attrition karyawan berdasarkan data yang tersedia. Dalam proses pengembangannya, digunakan dua metode utama, yaitu Logistic Regression sebagai model baseline yang mudah diinterpretasikan serta Random Forest sebagai model utama yang mampu menangani data kompleks dan memberikan informasi terkait pentingnya fitur.
 
+Selain itu, proyek ini juga mencakup proses Exploratory Data Analysis (EDA) untuk memahami karakteristik data serta mengidentifikasi pola dan faktor-faktor yang berpengaruh terhadap attrition. Hasil dari analisis ini diharapkan dapat memberikan insight yang mendalam sekaligus mendukung proses pengambilan keputusan berbasis data.
+
+Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tools berikut:
+- Data karyawan perusahaan Jaya Jaya Maju
+- Bahasa pemrograman Python sebagai tool utama dalam proyek ini
+- Berbagai library pendukung untuk pengolahan data, visualisasi, serta pembangunan dan evaluasi model klasifikasi
 ### Persiapan
 
 Sumber data: ....
