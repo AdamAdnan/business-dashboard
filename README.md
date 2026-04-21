@@ -21,7 +21,6 @@ Berdasarkan kondisi tersebut
 2. Apakah faktor seperti gaji, lama bekerja, jabatan, atau work-life balance mempengaruhi keputusan karyawan untuk keluar?
 3. Bagaimana karakteristik karyawan yang cenderung resign?
 4. Apakah terdapat pola tertentu berdasarkan departemen, usia, atau lokasi kerja?
-5. Bagaimana cara memonitor faktor-faktor tersebut secara real-time?
 
 ### Cakupan Proyek
 
@@ -50,15 +49,37 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Dashboard HR Attrition Analytics ini bertujuan untuk menganalisis tingkat attrition (karyawan keluar) di perusahaan serta mengidentifikasi faktor-faktor yang paling mempengaruhinya.
+
+Dari total 1,058 karyawan, terdapat 179 karyawan yang keluar, dengan attrition rate sebesar ±17%. Angka ini menunjukkan bahwa perusahaan memiliki tingkat turnover yang cukup signifikan dan perlu perhatian khusus.
+
+Analisis dilakukan dari berbagai perspektif, yaitu:
+
+- Departemen → untuk melihat unit kerja dengan attrition tertinggi
+- OverTime → untuk melihat pengaruh lembur terhadap keputusan resign
+- Job Role & Job Level → untuk melihat posisi yang paling rentan
+- Years at Company → untuk melihat fase kritis karyawan keluar
+- Monthly Income → untuk melihat pengaruh kompensasi
+- Age & Gender → untuk melihat karakteristik demografis
+- Work-Life Balance → untuk melihat keseimbangan kerja dan dampaknya
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan hasil analisis dashboard, dapat disimpulkan bahwa attrition di perusahaan tidak terjadi secara acak, tetapi dipengaruhi oleh beberapa faktor utama.
 
-### Rekomendasi Action Items (Optional)
+Faktor yang paling berpengaruh terhadap attrition adalah:
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+- OverTime (lembur) → karyawan yang sering lembur cenderung lebih tinggi tingkat keluar
+- Monthly Income → karyawan dengan pendapatan lebih rendah memiliki kecenderungan resign lebih besar
+- Job Level & Job Role → posisi entry-level dan beberapa role tertentu lebih rentan
+- Years at Company → tahun-tahun awal masa kerja merupakan periode paling kritis
+- Work-Life Balance → keseimbangan kerja yang buruk meningkatkan risiko resign
 
-- action item 1
-- action item 2
+Secara keseluruhan, attrition perusahaan lebih banyak dipengaruhi oleh kombinasi faktor beban kerja, kompensasi, dan pengalaman kerja awal, bukan hanya satu faktor tunggal.
+
+### Rekomendasi Action Items 
+
+Berikut adalah rekomendasi tindakan yang perlu dilakukan perusahaan untuk mengatasi permasalahan yang ada.
+
+- Perusahaan perlu mengevaluasi kebijakan jam kerja lembur, karena karyawan yang sering melakukan overtime menunjukkan tingkat attrition yang lebih tinggi.
+- Selain itu, tingkat attrition paling tinggi terjadi pada masa awal masa kerja, sehingga proses onboarding serta strategi engagement pada periode awal menjadi faktor yang sangat penting untuk ditingkatkan.
