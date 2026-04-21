@@ -37,16 +37,33 @@ Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tools beri
 Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup environment:
-
+1. Buka Google Colab:https://colab.research.google.com/
+Lalu buat notebook baru.
+2. Upload File Project
 ```
-conda create --name bike-dashboard python=3.12
-conda activate bike-dashboard
-# Berali ke drive D tempat project disimpan
-D:
-cd bike-sharing-main
-pip install -r requirements.txt
-```
+from google.colab import files
 
+uploaded = files.upload()
+```
+Upload file berikut:
+- predict.py
+- model_attrition.pkl
+- features.pkl
+  
+3. Install Library
+```
+!pip install pandas joblib
+```
+4. Input Data Karyawan Secara Manual
+Contoh
+```
+    'Age': [25],
+    'MonthlyIncome': [4000],
+    'YearsAtCompany': [3],
+    'JobLevel': [2],
+    'WorkLifeBalance': [3],
+    'OverTime_Yes': [0],
+```
 ## Business Dashboard
 
 Dashboard HR Attrition Analytics ini bertujuan untuk menganalisis tingkat attrition (karyawan keluar) di perusahaan serta mengidentifikasi faktor-faktor yang paling mempengaruhinya.
