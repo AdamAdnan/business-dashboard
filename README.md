@@ -66,13 +66,16 @@ cd
 pip install -r requirements.txt
 ```
 #### Cara Menjalankan Script Python (.py)
-1. Pastikan sudah membuat environment terlebih dahulu
-2. Aktifkan Environment
-3. Masuk ke Folder Project
-   `cd D:\employee-attrition-analytics`
+1. Pastikan sudah membuat dan mengaktifkan environment terlebih dahulu menggunakan perintah diatas
+2. Kemudian masuk ke Folder Project
+   ```
+   cd D:\employee-attrition-analytics
+   ```
 4. Jalankan Script
-   `python prediction.py`
-5. Contoh Input
+   ```
+   python prediction.py
+   ```
+6. Contoh Input:
 ```
 Umur: 25
 Gaji Bulanan: 3000
