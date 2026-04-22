@@ -110,8 +110,8 @@ Dashboard pada proyek ini dibuat menggunakan Metabase dan dapat diakses secara l
 #### Informasi Akses
 - **Metabase Version**: 0.59.5.1
 - **Database File**: `metabase.db.mv.db`
-- **Username**: adnan100701@gmail.com
-- **Password**: Adam070103
+- **Username**: 
+- **Password**: 
 
 #### Cara Menjalankan
 1. Pastikan Docker sudah terinstall pada perangkat Anda.
