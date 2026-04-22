@@ -60,16 +60,16 @@ employee-attrition-analytics/
 ```
 conda create --name employee-dashboard python=3.12
 conda activate employee-dashboard
-# Berali ke drive D tempat project disimpan
-D: employee-attrition-analysis
-cd 
+D: 
+cd employee-attrition-analytics
 pip install -r requirements.txt
 ```
 #### Cara Menjalankan Script Python (.py)
 1. Pastikan sudah membuat dan mengaktifkan environment terlebih dahulu menggunakan perintah diatas
 2. Kemudian masuk ke Folder Project
    ```
-   cd D:\employee-attrition-analytics
+   D:
+   cd employee-attrition-analytics
    ```
 4. Jalankan Script
    ```
@@ -117,16 +117,17 @@ Dashboard pada proyek ini dibuat menggunakan Metabase dan dapat diakses secara l
 1. Pastikan Docker sudah terinstall pada perangkat Anda.
 2. Jalankan Metabase menggunakan perintah berikut:
    ```
-   docker run -d -p 3000:3000 \
-   -v D:/path-ke-file/metabase.db.mv.db:/metabase.db/metabase.db.mv.db \
-   --name metabase metabase/metabase
+   docker run -d -p 3000:3000 -v D:\employee-attrition-analytics:/metabase.db --name metabase metabase/metabase
    ```
 4. Buka browser dan akses:
-   
    ```
    http://localhost:3000
    ```
-5. Login menggunakan username dan password yang telah disediakan
+5. Login menggunakan username dan password yang telah disediakan.
+6. Setelah berhasil masuk, pada halaman utama pilih menu **Our analytics**.
+7. Masuk ke dalam koleksi tersebut, lalu scroll ke bawah hingga menemukan dashboard bernama **HR Attrition Analytics Dashboard**.
+8. Klik pada dashboard tersebut.
+9. Setelah itu, dashboard akan terbuka dan menampilkan seluruh visualisasi analisis HR Attrition.
 
 
 ## Conclusion
