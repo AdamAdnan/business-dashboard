@@ -1,37 +1,43 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Business Understanding
-Perusahaan Jaya Jaya Maju adalah perusahaan multinasional dengan lebih dari 1000 karyawan yang tersebar di berbagai wilayah. Seiring pertumbuhan perusahaan, kompleksitas dalam pengelolaan sumber daya manusia juga meningkat.
-Salah satu masalah utama yang dihadapi adalah tingginya tingkat attrition rate, yaitu rasio karyawan yang keluar dibandingkan total karyawan. Tingkat attrition yang melebihi 10% menunjukkan adanya potensi masalah serius dalam:
-- Kepuasan kerja
-- lingkungan kerja
-- kompensasi
-- maupun faktor manajerial lainnya.
-  
-Jika tidak ditangani, kondisi ini akan dapat berdampak pada:
-- meningkatnya biaya rekrutmen dan pelatihan,
-- menurunnya produktivitas tim
-- hilangnya knowledge dan pengalaman karyawan.
-  
-Oleh karena itu, perusahaan membutuhkan pendekatan berbasis data untuk memahami penyebab utama attrition dan mengambil keputusan strategis.
+Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional dengan lebih dari 1000 karyawan yang tersebar di berbagai wilayah. Seiring dengan pertumbuhan perusahaan, kompleksitas dalam pengelolaan sumber daya manusia juga semakin meningkat.
+
+Dalam kondisi tersebut, perusahaan perlu memiliki sistem dan pendekatan yang efektif dalam mengelola karyawan, termasuk dalam memahami dinamika tenaga kerja serta menjaga stabilitas organisasi. Pemanfaatan data menjadi salah satu pendekatan yang penting untuk membantu perusahaan dalam mengambil keputusan yang lebih tepat dan berbasis bukti.
+
 ### Permasalahan Bisnis
 
-Berdasarkan kondisi tersebut
-1. Faktor apa saja yang paling berpengaruh terhadap attrition karyawan?
-2. Apakah faktor seperti gaji, lama bekerja, jabatan, atau work-life balance mempengaruhi keputusan karyawan untuk keluar?
-3. Bagaimana karakteristik karyawan yang cenderung resign?
-4. Apakah terdapat pola tertentu berdasarkan departemen, usia, atau lokasi kerja?
+Perusahaan Jaya Jaya Maju saat ini menghadapi permasalahan tingginya tingkat attrition karyawan, yang telah melampaui ambang batas normal (>10%). Kondisi ini menunjukkan adanya ketidakstabilan dalam pengelolaan sumber daya manusia yang berpotensi mengganggu keberlangsungan operasional perusahaan.
+
+Tingginya attrition tidak hanya berdampak pada kehilangan tenaga kerja, tetapi juga menimbulkan konsekuensi bisnis yang signifikan, seperti meningkatnya biaya rekrutmen dan pelatihan karyawan baru, menurunnya produktivitas tim akibat proses adaptasi, serta hilangnya pengetahuan dan pengalaman yang telah dimiliki oleh karyawan sebelumnya.
+
+Selain itu, ketidakmampuan perusahaan dalam mengidentifikasi faktor-faktor utama penyebab attrition—baik yang berkaitan dengan kompensasi, beban kerja, jabatan, maupun keseimbangan kerja—dapat menyebabkan permasalahan ini terus berulang tanpa solusi yang tepat.
+
+Apabila kondisi ini tidak segera ditangani, maka dalam jangka panjang perusahaan berisiko mengalami penurunan kinerja organisasi, meningkatnya turnover secara berkelanjutan, serta melemahnya daya saing perusahaan di industri.
+
+Oleh karena itu, diperlukan analisis berbasis data untuk memahami faktor-faktor penyebab attrition serta merumuskan strategi yang efektif dalam meningkatkan retensi karyawan.
 
 ### Cakupan Proyek
+Untuk menjawab permasalahan bisnis yang telah diidentifikasi, proyek ini berfokus pada penerapan pendekatan berbasis data melalui analisis dan pemodelan machine learning untuk memahami serta memprediksi attrition karyawan.
 
-Untuk menjawab permasalahan bisnis tersebut, proyek ini berfokus pada penerapan pendekatan classification untuk memprediksi attrition karyawan berdasarkan data yang tersedia. Dalam proses pengembangannya, digunakan dua metode utama, yaitu Logistic Regression sebagai model baseline yang mudah diinterpretasikan serta Random Forest sebagai model utama yang mampu menangani data kompleks dan memberikan informasi terkait pentingnya fitur.
+Proyek ini mencakup beberapa tahapan utama, yaitu Exploratory Data Analysis (EDA) untuk memahami karakteristik data dan mengidentifikasi pola yang berkaitan dengan attrition, serta pembangunan model klasifikasi untuk memprediksi kemungkinan seorang karyawan akan keluar dari perusahaan. Dalam proses pemodelan, digunakan Logistic Regression sebagai model baseline yang mudah diinterpretasikan dan Random Forest sebagai model utama yang mampu menangani kompleksitas data serta memberikan informasi mengenai pentingnya fitur.
 
-Selain itu, proyek ini juga mencakup proses Exploratory Data Analysis (EDA) untuk memahami karakteristik data serta mengidentifikasi pola dan faktor-faktor yang berpengaruh terhadap attrition. Hasil dari analisis ini diharapkan dapat memberikan insight yang mendalam sekaligus mendukung proses pengambilan keputusan berbasis data.
+Selain itu, proyek ini juga mencakup pembuatan dashboard visualisasi data yang digunakan untuk menyajikan insight secara interaktif dan membantu pihak manajemen dalam memahami faktor-faktor yang mempengaruhi attrition. Dashboard ini berfungsi sebagai alat pendukung pengambilan keputusan berbasis data.
 
-Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tools berikut:
+Sebagai output akhir, proyek ini menghasilkan:
+
+- Model machine learning untuk memprediksi attrition karyawan
+- Dashboard visualisasi data untuk analisis faktor-faktor attrition
+- Script prediksi yang dapat digunakan untuk melakukan evaluasi terhadap data karyawan baru
+
+Adapun batasan dalam proyek ini meliputi penggunaan data historis karyawan yang tersedia tanpa mempertimbangkan faktor eksternal di luar dataset, serta model yang dibangun difokuskan pada prediksi attrition tanpa membahas strategi implementasi sistem secara real-time.
+
+Dalam pelaksanaannya, proyek ini menggunakan beberapa resource dan tools, antara lain:
+
 - Data karyawan perusahaan Jaya Jaya Maju
-- Bahasa pemrograman Python sebagai tool utama dalam proyek ini
-- Berbagai library pendukung untuk pengolahan data, visualisasi, serta pembangunan dan evaluasi model klasifikasi
+- Bahasa pemrograman Python sebagai tool utama
+- Library pendukung untuk pengolahan data, visualisasi, serta pembangunan model klasifikasi
+
 ### Persiapan
 
 Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
@@ -66,37 +72,64 @@ Contoh
 ```
 ## Business Dashboard
 
-Dashboard HR Attrition Analytics ini bertujuan untuk menganalisis tingkat attrition (karyawan keluar) di perusahaan serta mengidentifikasi faktor-faktor yang paling mempengaruhinya.
+Dashboard ini dikembangkan untuk membantu perusahaan dalam memahami faktor-faktor yang mempengaruhi attrition karyawan secara visual dan interaktif. Dashboard menyajikan berbagai metrik utama serta analisis berdasarkan beberapa dimensi penting yang telah diidentifikasi melalui proses Exploratory Data Analysis (EDA) dan pemodelan machine learning.
 
-Dari total 1,058 karyawan, terdapat 179 karyawan yang keluar, dengan attrition rate sebesar ±17%. Angka ini menunjukkan bahwa perusahaan memiliki tingkat turnover yang cukup signifikan dan perlu perhatian khusus.
+Pada bagian atas dashboard ditampilkan Key Performance Indicators (KPI) yang memberikan gambaran umum mengenai kondisi perusahaan, seperti tingkat attrition, total karyawan, dan jumlah karyawan yang keluar. Informasi ini berfungsi sebagai indikator awal untuk menilai tingkat permasalahan yang dihadapi.
 
-Analisis dilakukan dari berbagai perspektif, yaitu:
+Selanjutnya, dashboard menampilkan beberapa visualisasi utama yang berfokus pada faktor-faktor yang terbukti berpengaruh terhadap attrition, antara lain:
+- Attrition berdasarkan overtime untuk melihat pengaruh beban kerja
+- Attrition berdasarkan tingkat pendapatan untuk memahami peran kompensasi
+- Attrition berdasarkan masa kerja untuk mengidentifikasi fase kritis karyawan
+- Attrition berdasarkan job level untuk melihat perbedaan risiko antar level jabatan
+- Attrition berdasarkan departemen dan job role untuk mengetahui area dengan risiko tertinggi
+- Attrition berdasarkan usia dan work-life balance untuk memahami faktor demografis dan kesejahteraan karyawan
 
-- Departemen → untuk melihat unit kerja dengan attrition tertinggi
-- OverTime → untuk melihat pengaruh lembur terhadap keputusan resign
-- Job Role & Job Level → untuk melihat posisi yang paling rentan
-- Years at Company → untuk melihat fase kritis karyawan keluar
-- Monthly Income → untuk melihat pengaruh kompensasi
-- Age & Gender → untuk melihat karakteristik demografis
-- Work-Life Balance → untuk melihat keseimbangan kerja dan dampaknya
+Visualisasi yang ditampilkan pada dashboard telah disesuaikan dengan hasil analisis pada notebook, sehingga setiap grafik memiliki keterkaitan langsung dengan kesimpulan yang diambil.
+
+Dengan adanya dashboard ini, pihak manajemen dapat dengan mudah mengidentifikasi kelompok karyawan yang berisiko tinggi mengalami attrition serta memahami faktor-faktor penyebabnya. Hal ini memungkinkan perusahaan untuk mengambil keputusan yang lebih tepat dan berbasis data dalam upaya meningkatkan retensi karyawan.
+
+### Akses Dashboard Metabase
+Dashboard pada proyek ini dibuat menggunakan Metabase dan dapat diakses secara lokal menggunakan file database yang telah disertakan.
+
+#### Informasi Akses
+- **Metabase Version**: 0.59.5.1
+- **Database File**: `metabase.db.mv.db`
+- **Username**: adnan100701@gmail.com
+- **Password**: Adam070103
+
+#### Cara Menjalankan
+1. Pastikan Docker sudah terinstall pada perangkat Anda.
+2. Jalankan Metabase menggunakan perintah berikut:
+   ```
+   docker run -d -p 3000:3000 \
+   -v D:/path-ke-file/metabase.db.mv.db:/metabase.db/metabase.db.mv.db \
+   --name metabase metabase/metabase
+   ```
+4. Buka browser dan akses:
+   
+   ```
+   http://localhost:3000
+   ```
+5. Login menggunakan username dan password yang telah disediakan
+
 
 ## Conclusion
 
-Berdasarkan hasil analisis dashboard, dapat disimpulkan bahwa attrition di perusahaan tidak terjadi secara acak, tetapi dipengaruhi oleh beberapa faktor utama.
+Berdasarkan hasil analisis data melalui Exploratory Data Analysis (EDA) dan pemodelan menggunakan Random Forest, dapat disimpulkan bahwa attrition karyawan dipengaruhi oleh kombinasi faktor kompensasi, beban kerja, serta pengalaman kerja.
 
-Faktor yang paling berpengaruh terhadap attrition adalah:
+Faktor utama yang terbukti paling berpengaruh meliputi pendapatan (MonthlyIncome), overtime, usia, serta masa kerja (YearsAtCompany dan TotalWorkingYears). Karyawan dengan usia lebih muda, masa kerja yang lebih pendek, pendapatan rendah, serta beban kerja tinggi cenderung memiliki risiko attrition yang lebih tinggi.
 
-- OverTime (lembur) → karyawan yang sering lembur cenderung lebih tinggi tingkat keluar
-- Monthly Income → karyawan dengan pendapatan lebih rendah memiliki kecenderungan resign lebih besar
-- Job Level & Job Role → posisi entry-level dan beberapa role tertentu lebih rentan
-- Years at Company → tahun-tahun awal masa kerja merupakan periode paling kritis
-- Work-Life Balance → keseimbangan kerja yang buruk meningkatkan risiko resign
+Selain itu, faktor tambahan seperti jarak tempat tinggal dan struktur pendapatan juga turut berkontribusi dalam meningkatkan kemungkinan karyawan keluar. Temuan ini menunjukkan bahwa attrition tidak disebabkan oleh satu faktor tunggal, melainkan oleh kombinasi berbagai aspek yang berkaitan dengan kondisi kerja dan karakteristik karyawan.
 
-Secara keseluruhan, attrition perusahaan lebih banyak dipengaruhi oleh kombinasi faktor beban kerja, kompensasi, dan pengalaman kerja awal, bukan hanya satu faktor tunggal.
+Dengan demikian, pendekatan berbasis data yang menggabungkan analisis dan model prediktif dapat membantu perusahaan dalam mengidentifikasi risiko attrition secara lebih akurat serta mendukung pengambilan keputusan strategis dalam pengelolaan sumber daya manusia.
 
 ### Rekomendasi Action Items 
 
 Berikut adalah rekomendasi tindakan yang perlu dilakukan perusahaan untuk mengatasi permasalahan yang ada.
 
-- Perusahaan perlu mengevaluasi kebijakan jam kerja lembur, karena karyawan yang sering melakukan overtime menunjukkan tingkat attrition yang lebih tinggi.
-- Selain itu, tingkat attrition paling tinggi terjadi pada masa awal masa kerja, sehingga proses onboarding serta strategi engagement pada periode awal menjadi faktor yang sangat penting untuk ditingkatkan.
+- Evaluasi Beban Kerja dan Kebijakan Overtime
+  
+  Perusahaan perlu mengevaluasi kebijakan jam kerja lembur, karena karyawan yang sering melakukan overtime memiliki risiko attrition yang jauh lebih tinggi. Pengaturan beban kerja yang lebih seimbang serta monitoring intensitas lembur dapat membantu mengurangi tekanan kerja dan meningkatkan retensi karyawan.
+- Perkuat Strategi Retensi untuk Karyawan Baru dan Level Awal
+
+  Perusahaan disarankan untuk memperkuat program onboarding dan engagement pada karyawan dengan masa kerja awal serta level jabatan rendah, karena kelompok ini memiliki risiko attrition paling tinggi. Program mentoring, pengembangan karier, serta evaluasi kompensasi awal dapat membantu meningkatkan loyalitas dan keterikatan karyawan.
