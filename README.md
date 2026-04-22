@@ -66,8 +66,23 @@ cd
 pip install -r requirements.txt
 ```
 #### Cara Menjalankan Script Python (.py)
-1. Masuk ke Folder Project
-2. Jalankan Script
+1. Pastikan sudah membuat environment terlebih dahulu
+2. Aktifkan Environment
+3. Masuk ke Folder Project
+   `cd D:\employee-attrition-analytics`
+4. Jalankan Script
+   `python prediction.py`
+5. Contoh Input
+```
+Umur: 25
+Gaji Bulanan: 3000
+Jarak dari Rumah: 15
+Total Working Years: 3
+Years at Company: 1
+Jumlah Perusahaan Sebelumnya: 1
+Overtime (yes/no): yes
+Department (sales/hr/rnd): sales
+```
 ## Business Dashboard
 
 Dashboard ini dikembangkan untuk membantu perusahaan dalam memahami faktor-faktor yang mempengaruhi attrition karyawan secara visual dan interaktif. Dashboard menyajikan berbagai metrik utama serta analisis berdasarkan beberapa dimensi penting yang telah diidentifikasi melalui proses Exploratory Data Analysis (EDA) dan pemodelan machine learning.
