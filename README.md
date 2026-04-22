@@ -42,34 +42,32 @@ Dalam pelaksanaannya, proyek ini menggunakan beberapa resource dan tools, antara
 
 Sumber data: [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
-Setup environment:
-1. Buka Google Colab:https://colab.research.google.com/
-Lalu buat notebook baru.
-2. Upload File Project
+#### Struktur Folder
 ```
-from google.colab import files
-
-uploaded = files.upload()
+employee-attrition-analytics/
+│
+├── model.pkl
+├── features.pkl
+├── notebook.ipynb
+├── prediction.py
+├── README.md
+├── insight_dt_dicoding-dashboard.jpg
+├── insight_dt_dicoding-video
+├── metabase.db.mv.db
+└── requirements.txt
 ```
-Upload file berikut:
-- predict.py
-- model_attrition.pkl
-- features.pkl
-  
-3. Install Library
+#### Setup Environment - Anaconda
 ```
-!pip install pandas joblib
+conda create --name employee-dashboard python=3.12
+conda activate employee-dashboard
+# Berali ke drive D tempat project disimpan
+D: employee-attrition-analysis
+cd 
+pip install -r requirements.txt
 ```
-4. Input Data Karyawan Secara Manual
-Contoh
-```
-    'Age': [25],
-    'MonthlyIncome': [4000],
-    'YearsAtCompany': [3],
-    'JobLevel': [2],
-    'WorkLifeBalance': [3],
-    'OverTime_Yes': [0],
-```
+#### Cara Menjalankan Script Python (.py)
+1. Masuk ke Folder Project
+2. Jalankan Script
 ## Business Dashboard
 
 Dashboard ini dikembangkan untuk membantu perusahaan dalam memahami faktor-faktor yang mempengaruhi attrition karyawan secara visual dan interaktif. Dashboard menyajikan berbagai metrik utama serta analisis berdasarkan beberapa dimensi penting yang telah diidentifikasi melalui proses Exploratory Data Analysis (EDA) dan pemodelan machine learning.
